@@ -42,6 +42,7 @@ namespace RRCP
 
             return stringFormat;
         }
+
         public static List<Property> SortProps(List<Property> props)
         {
             var sortedProps = props.OrderBy(p => p.Text);
